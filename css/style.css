@@ -8,6 +8,11 @@
     src: url(../fonts/GalanoGrotesqueExtraLight.otf)
 }
 
+@font-face {
+    font-family: "Galano Grotesque Semi Bold";
+    src: url(../fonts/GalanoGrotesqueSemiBold.otf)
+}
+
 body{
     font-family: "Galano Grotesque Extra Light";
 }
@@ -78,8 +83,15 @@ textarea{
 }
 
 #bg-yellow{
-    background-image: url("../images/bg-yellow.png");
+    background-color: #e9cf75;
     
+}
+
+#bg-yellow input{
+    margin:0px;
+    border:0px;
+    border-radius: 0px;
+    margin: 1px;
 }
 
 #blog{
@@ -192,11 +204,21 @@ textarea{
 
 #donate{
     background-color: #efcb4e;
-    padding-top:10px;
+    padding-top:2px;
+}
+
+#donate-text{
+    font-family: "Galano Grotesque Semi Bold";
+
 }
 
 #donate input{
     width: 45%;
+    background-color: #f9f9f9;
+    border: 0px;
+    margin: 0px;
+    
+    padding-bottom: 18px;
 }
 
 #donate #submit{
@@ -207,4 +229,12 @@ textarea{
 
 #footer-bottom{
     padding-top:20px;
+}
+
+#copyright{
+    background-color: #f9f9f9;
+}
+
+#copyright p{
+    margin: 0px;
 }

@@ -46,7 +46,9 @@
         <div class="row">
             <div class="container">
                 <div class="col-sm-4 offset-sm-4">
-                    <input class="form-control" type="text" placeholder="search for people, trends, pages and groups" aria-label="Search">
+                    <form action="#" method="post">
+                        <input class="form-control" type="text" placeholder="search for people, trends, pages and groups" aria-label="Search">
+                    </form>
                 </div> 
             </div>
         </div>
@@ -215,8 +217,8 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-md-4">
-                        <span id="donate-Text">Help Cancer Research</span>
+                    <div class="col-md-5">
+                        <span id="donate-text">Help Cancer Research</span>
                         <span>enter an amount to donate</span>
                     </div>
 
@@ -227,7 +229,7 @@
                         </form>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <p>together we are stronger</p>
                     </div>
 
@@ -241,7 +243,7 @@
 
             <div class="row">
                 <div class="col-md-4">
-                    <img src="images/logo.png" alt="" width="100%">
+                    <img src="images/logo.png" alt="" height="70%">
                 </div>
 
                 <div class="col-md-4">
@@ -261,7 +263,12 @@
                 </div>
             </div>
             
-        </div>        
+        </div>
+        
+        <div class="container-fluid text-center" id="copyright">
+            <p>Copyright © 2019 ARDFOUND.</p>
+        </div>
+
     </footer>
 
 
