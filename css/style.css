@@ -256,3 +256,13 @@ textarea{
 #semi-bold{
     font-family: "Galano Grotesque Semi Bold"; 
 }
+
+#banner-board{
+    padding:0px;
+}
+
+.board-single{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size:10px;
+}

@@ -24,8 +24,8 @@
                         <li class="menu-item align-self-center"><a href="index.php">home</a></li>
                         <li class="menu-item"><a href="#">ardfoundation</a></li>
                         <li class="menu-item"><a href="founder.php">founder</a></li>
-                        <li class="menu-item"><a href="#">ambassadors</a></li>
-                        <li class="menu-item"><a href="#">board</a></li>
+                        <li class="menu-item"><a href="ambassadors.php">ambassadors</a></li>
+                        <li class="menu-item"><a href="board.php">board</a></li>
                         <li class="menu-item"><a href="#">articles</a></li>
                         <li class="menu-item"><a href="#">cases</a></li>
                         <li class="menu-item"><a href="#">events</a></li>

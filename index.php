@@ -5,7 +5,7 @@
     <section class="container-fluid" id="blog">
         <div class="row">
             <div class="container">
-                <h2 class="blog-title"><strong>Ard</strong> blog <img src="images/icon-blog.png" alt=""width="40px"></h2>
+                <h2 class="blog-title"> <span id="semi-bold">Ard </span> blog <img src="images/icon-blog.png" alt=""width="40px"></h2>
             </div>
         </div>
 
