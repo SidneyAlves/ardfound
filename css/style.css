@@ -238,3 +238,21 @@ textarea{
 #copyright p{
     margin: 0px;
 }
+
+#founder{
+    text-align: justify;
+}
+
+#founder-logo {
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+#founder h1{
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#semi-bold{
+    font-family: "Galano Grotesque Semi Bold"; 
+}
