@@ -3,7 +3,7 @@
 <div class="container-fluid" id="founder">
 	<div class="container">
 		<div class="col-md-4 offset-md-4" id="founder-logo">
-			<img src="images/logo.png" alt="" width="100%">
+			<img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" alt="" width="100%">
 		</div>
 		<hr>
 
@@ -16,7 +16,7 @@
 		</div>
 		
 		<div class="col-md-6 offset-md-3" style="padding-top: 30px; padding-bottom: 100px;">
-			<img src="images/founder.png" alt="" width="100%">
+			<img src="<?php echo get_bloginfo('template_url') ?>/images/founder.png" alt="" width="100%">
 		</div>
 
 	</div>

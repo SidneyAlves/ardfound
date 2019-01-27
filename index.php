@@ -2,7 +2,7 @@
 
     <?php include('components/carousel.php'); ?>
 
-    <section class="container-fluid" id="blog">
+    <!-- <section class="container-fluid" id="blog">
         <div class="row">
             <div class="container">
                 <h2 class="blog-title"> <span id="semi-bold">Ard </span> blog <img src="images/icon-blog.png" alt=""width="40px"></h2>
@@ -16,16 +16,16 @@
             </div>
         </div>
     
-    <div class="text-center" id="verMaisBlog"><a href="#"><strong>veja mais</strong></a></div>
+        <div class="text-center" id="verMaisBlog"><a href="#"><strong>veja mais</strong></a></div>
 
-    </section>
+    </section> -->
 
     <section class="container-fluid" id="about">
-        <img src="images/topo-about.png" alt="" width="100%">
+        <img src="<?php echo get_bloginfo('template_url') ?>/images/topo-about.png" alt="" width="100%">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 offset-md-2">
-                    <img src="images/about.png" alt="" width="100%" id="img-about">
+                    <img src="<?php echo get_bloginfo('template_url') ?>/images/about.png" alt="" width="100%" id="img-about">
                 </div>
 
                 <div class="col-md-4 offset-md-1">
@@ -54,10 +54,10 @@
                         researchers achieve the common goal for all of us:</p>
                 </div>
                 <div class="row">
-                    <div class="col-md-2 offset-md-2" style="padding-top:20px"><img src="images/help1.png" alt="" width="100px" height="100px"></div>
-                    <div class="col-md-2" style="padding-top:20px"><img src="images/help2.png" alt="" width="100px" height="100px"></div>
-                    <div class="col-md-2" style="padding-top:20px"><img src="images/help3.png" alt="" width="100px" height="110px"></div>
-                    <div class="col-md-2" style="padding-top:20px"><img src="images/help4.png" alt="" width="100px" height="100px"></div>
+                    <div class="col-md-2 offset-md-2" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/help1.png" alt="" width="100px" height="100px"></div>
+                    <div class="col-md-2" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/help2.png" alt="" width="100px" height="100px"></div>
+                    <div class="col-md-2" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/help3.png" alt="" width="100px" height="110px"></div>
+                    <div class="col-md-2" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/help4.png" alt="" width="100px" height="100px"></div>
                 </div>
             </div>
         </div>
@@ -72,26 +72,26 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4" style="padding-top:20px"><img src="images/helped1.jpg" alt="" width="160px" height="100px"></div>
-                <div class="col-md-4" style="padding-top:20px"><img src="images/helped2.png" alt="" width="200px" height="80px"></div>
-                <div class="col-md-4" style="padding-top:20px"><img src="images/helped3.png" alt="" width="200px" height="80px"></div>
+                <div class="col-md-4" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/helped1.jpg" alt="" width="160px" height="100px"></div>
+                <div class="col-md-4" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/helped2.png" alt="" width="200px" height="80px"></div>
+                <div class="col-md-4" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/helped3.png" alt="" width="200px" height="80px"></div>
             </div>
         </div>
     </section>
 
     <section class="container-fluid" id="partners">
         <div class="container">
-            <h2><strong>ard</strong> partners <img src="images/icon-partners.png" alt="" width="40px"></h2>
+            <h2><strong>ard</strong> partners <img src="<?php echo get_bloginfo('template_url') ?>/images/icon-partners.png" alt="" width="40px"></h2>
             <div class="row">
-                <div class="col-md-3" style="padding-top:20px"><img src="images/partner1.png" alt="" width="200px" height="120px"></div>
-                <div class="col-md-3" style="padding-top:20px"><img src="images/partner2.png" alt="" width="200px" height="100px"></div>
-                <div class="col-md-3" style="padding-top:20px"><img src="images/partner3.jpg" alt="" width="200px" height="80px"></div>
-                <div class="col-md-3" style="padding-top:20px"><img src="images/partner4.png" alt="" width="200px" height="100px"></div>
+                <div class="col-md-3" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/partner1.png" alt="" width="200px" height="120px"></div>
+                <div class="col-md-3" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/partner2.png" alt="" width="200px" height="100px"></div>
+                <div class="col-md-3" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/partner3.jpg" alt="" width="200px" height="80px"></div>
+                <div class="col-md-3" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/partner4.png" alt="" width="200px" height="100px"></div>
             </div>
         </div>
     </section>
 
-    <section class="container-fluid" id="follow">
+    <!-- <section class="container-fluid" id="follow">
         <div class="container">
             <h2>@ardfoundation</h2>
             <h2>follow us</h2>
@@ -100,7 +100,7 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
     <?php include('components/contato.php'); ?>
 

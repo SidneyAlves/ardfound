@@ -8,15 +8,15 @@
     <title>Ard Foundation</title>
 
     <!-- Bootstrap -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="<?php echo get_bloginfo('template_url') ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_bloginfo('template_url') ?>/style.css">
   </head>
   <body>
     <section class="container-fluid" id="menu-topo">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-md-2">
-                    <img src="images/logo.png" alt="" width="100%">
+                    <a href="index.php"><img src="<?php echo get_bloginfo('template_url') ?>/images/logo.png" alt="" width="100%"></a>
                 </div>
 
                 <div class="col-md-10" id="menu-links">
@@ -45,11 +45,11 @@
     <section class="container-fluid" id="bg-yellow">
         <div class="row">
             <div class="container">
-                <div class="col-sm-4 offset-sm-4">
+                <!-- <div class="col-sm-4 offset-sm-4">
                     <form action="#" method="post">
                         <input class="form-control" type="text" placeholder="search for people, trends, pages and groups" aria-label="Search">
                     </form>
-                </div> 
+                </div>  -->
             </div>
         </div>
     </section>

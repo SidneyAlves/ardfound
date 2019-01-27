@@ -1,6 +1,6 @@
 <section class="container-fluid" id="contact">
     <div class="row">
-        <div class="col-md-6 padding30" id="contact-img"><img src="images/contact.jpg" alt="" width="100%"></div>
+        <div class="col-md-6 padding30" id="contact-img"><img src="<?php echo get_bloginfo('template_url') ?>/images/contact.jpg" alt="" width="100%"></div>
 
         <div class="col-md-6 padding30" id="contact-form">
             <div class="col-md-9">
