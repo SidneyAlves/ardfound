@@ -5,7 +5,7 @@
         <div class="col-md-6 padding30" id="contact-form">
             <div class="col-md-9">
                 <h2>get in contact with us</h2>
-                <p>Send us suggestions of themes, speakers, sponsors and other reasons that can bring reflections to our work:</p>
+                <p>Send us suggestions for event themes, speakers, sponsors and other ways we can raise awareness for our mission.</p>
 
                 <form action="#" method="post">
                     <input type="text" name="name" id="name" placeholder="name*" required witdh="100%">

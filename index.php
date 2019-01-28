@@ -50,8 +50,7 @@
                 <h2>How Can You Help?</h2>
                 <hr>
                 <div class="col-md-4 offset-md-4">
-                    <p>Ms. Ana Paola Diniz believes that together, we can help these
-                        researchers achieve the common goal for all of us:</p>
+                    <p>Ms. Ana Paola Diniz believes that together we can help researchers achieve this common goal:</p>
                 </div>
                 <div class="row">
                     <div class="col-md-2 offset-md-2" style="padding-top:20px"><img src="<?php echo get_bloginfo('template_url') ?>/images/help1.png" alt="" width="100px" height="100px"></div>
@@ -68,7 +67,7 @@
             <h2>Who Us Helped</h2>
             <hr>
             <div class="col-md-4 offset-md-4">
-                <p>Ms. Ana Paola Diniz believes that together, we can help these researchers achieve the common goal for all of us:</p>
+                <p>The ARD Foundation is proud to be partnered with these associations:</p>
             </div>
 
             <div class="row">
